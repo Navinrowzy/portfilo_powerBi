@@ -6,7 +6,7 @@ import { ScrollReveal } from "../UI/ScrollReveal";
 
 export const Contact = () => {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
-  const emailAddress = "navinkumark846@gmail.com";
+  const emailAddress = "test@gmail.com";
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
